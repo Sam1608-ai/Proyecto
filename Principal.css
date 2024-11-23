@@ -1,0 +1,75 @@
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000000; /* Color amarillo */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #ff8c00; /* Color naranja */
+}
+
+main {
+    background: #f0e68c; /* Amarillo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #ff8c00; /* Color naranja */
+}
+
+section p {
+    background-color: #fffacd; /* Amarillo claro */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000; /* Color amarillo */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    margin-top: 20px;
+   color:#fffacd
+}
+
+
+
+nav ul {
+    list-style-type: style none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000
+    padding 10px;
+
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fffbfb
+}
+
+.producto {
+    margin-right: 2cm;
+    float: right;
+    height:5cm; 
+   display: block;
+    margin-top: 10px;
+}
+  

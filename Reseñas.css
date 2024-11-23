@@ -1,27 +1,4 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 50px auto;
-    overflow: hidden;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    text-align: center;
-    color: #ff8c00; /* Color naranja */
-}
-
-.login-form {
+.review-form, .reviews {
     background: #f0e68c; /* Amarillo claro */
     padding: 20px;
     margin: 20px 0;
@@ -29,11 +6,12 @@ h1, h2 {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"], input[type="password"] {
+textarea {
     width: calc(100% - 20px);
-    padding: 10px;
+    height: 100px;
     margin: 10px auto;
     display: block;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #32cd32; /* Color verde */
     background-color: #fffacd; /* Amarillo claro */
@@ -44,7 +22,7 @@ input[type="text"], input[type="password"] {
 button {
     display: block;
     width: 100%;
-    background: #32cd32; /* Color verde */
+    background: #ff8c00; /* Color naranja */
     color: #fff;
     border: none;
     padding: 10px;
@@ -55,5 +33,14 @@ button {
 }
 
 button:hover {
-    background: #adff2f; /* Verde claro */
+    background: #ffa07a; /* Naranja claro */
+}
+
+.review {
+    background: #fffacd; /* Amarillo claro */
+    padding: 10px;
+    border-bottom: 1px solid #ffd700; /* Color amarillo */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #333;
 }

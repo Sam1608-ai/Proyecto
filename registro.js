@@ -1,5 +1,6 @@
-document.getElementById("formulario").addEventListener("submit", function (event) {
-    event.preventDefault();
+document.getElementById("formulario").addEventListener("submit", (e) =>
+  {  e.preventDefault();
+    
     const Nombre = document.getElementById("nombre").value;
     const email = document.getElementById("email").value;
     const Contraseña = document.getElementById("contraseña").value;

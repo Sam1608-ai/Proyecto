@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Reseñas</title>
+    <link rel="stylesheet" href="Reseñas.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reseñas de Usuarios</h1>
+        <div class="review-form">
+            <h2>Añadir Reseña</h2>
+            <textarea id="review-text" placeholder="Escribe tu reseña aquí..."></textarea>
+            <button onclick="addReview()">Enviar</button>
+        </div>
+        <div class="reviews">
+            <h2>Reseñas</h2>
+            <div id="reviews-container"></div>
+        </div>
+    </div>
+    <script src="Reseñas.js"></script>
+</body>
+</html>
